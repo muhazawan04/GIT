@@ -56,7 +56,7 @@ using namespace std;
             }
             else if ((hours + carry2.hours) < op1.minutes){
             sub.hours = ((hours + carry2.hours + 24) - op1.hours)%60;
-            cout << "Yesterday\n"; // means we have taken carry from the day although it is not included here.
+            cout << "As we are taking carry for hours so we are going to Yesterday\n"; // means we have taken carry from the day although it is not included here.
             }
 
         }
@@ -69,7 +69,7 @@ using namespace std;
             }
             else if ((hours + carry3.hours) < op1.minutes){
             sub.hours = (hours + carry3.hours + 24 - op1.hours)%60;
-            cout << "Yesterday\n";
+            cout << "As we are taking carry for hours so we are going to Yesterday\n";
             hours = hours + 1;
             }
             hours = hours + 1;
@@ -89,7 +89,7 @@ using namespace std;
             }
             else if ((hours + carry2.hours) < op1.minutes){
             sub.hours = ((hours + carry2.hours + 24) - op1.hours)%60;
-            cout << "Yesterday\n";
+            cout << "As we are taking carry for hours so we are going to Yesterday\n";
 
 
             }
@@ -104,7 +104,7 @@ using namespace std;
             }
             else if ((hours + carry3.hours) < op1.minutes){
             sub.hours = ((hours + carry3.hours + 24) - op1.hours)%60;
-            cout << "Yesterday\n";
+            cout << "As we are taking carry for hours so we are going to Yesterday\n";
             }
             hours = hours +1;
             minutes = minutes + 1;
