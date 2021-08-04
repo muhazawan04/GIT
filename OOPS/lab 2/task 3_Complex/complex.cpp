@@ -1,6 +1,5 @@
 #include "complex.h"
 #include <iostream>
-
 using namespace std;
     myComplex::myComplex(){ //Default construtor
     real = 0;
@@ -61,6 +60,7 @@ using namespace std;
     myComplex myComplex::Divide(myComplex op1){
         myComplex div;
         double  rdenom, idenom;
+        
         double rnomi,inomi;
 
         rnomi = (real*op1.getreal()) + (imaginary*(op1.getimaginary()));

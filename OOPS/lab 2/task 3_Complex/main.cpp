@@ -1,6 +1,8 @@
 #include <iostream>
-#include "complex.h"
+
 using namespace std;
+
+#include "complex.h"
 
 int main()
 {
